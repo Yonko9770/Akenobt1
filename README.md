@@ -1,20 +1,21 @@
-![Asuka](https://telegra.ph/file/f975d75dabca471894485.png)
-# Asuka Robot
+# 𝓐𝓴𝓮𝓷𝓸 
+<img src="https://telegra.ph/file/208286704256a7a72992c.jpg" align="center"/>
+# 𝓐𝓴𝓮𝓷𝓸 Robot
 <h3 align="center"> 
-    A Modular Telegram Python Bot Running On Python3 With Mongo DB, Sqlalchemy, Redis Database.
+    A Advanced Telegram Python Bot Running On Python3 With Mongo DB, Sqlalchemy, Redis Database.
 </h3>
 
 <p align="center">
     <a href="https://python.org">
         <img src="http://forthebadge.com/images/badges/made-with-python.svg" alt="made-with-python">
     </a>
-<a href="https://GitHub.com/RimuruDemonlord">
+<a href="https://GitHub.com/YeahKakashi">
         <img src="http://ForTheBadge.com/images/badges/built-with-love.svg" alt="built-with-love">
     </a>
 <img src="https://img.shields.io/badge/python-3.10.1-green?style=for-the-badge&logo=appveyor" alt="Python Version">
 <img src="https://img.shields.io/badge/Telethon-1.24.0-yellow?style=for-the-badge&logo=appveyor" alt="Telethon Version">
 <img src="https://img.shields.io/badge/Pyrogram-1.4.1-red?style=for-the-badge&logo=appveyor" alt="Pyrogram Version">
-<a href="https://github.com/RimuruDemonlord/AsukaRobot"> <img src="https://img.shields.io/github/repo-size/RimuruDemonlord/AsukaRobot?color=red&logo=github&logoColor=green&style=for-the-badge" /></a>
+<a href="https://github.com/YeahKakashi/AsukaRobot"> <img src="https://img.shields.io/github/repo-size/RimuruDemonlord/AsukaRobot?color=red&logo=github&logoColor=green&style=for-the-badge" /></a>
 
 ##  ╒═══「 Status 」
 
@@ -33,18 +34,17 @@
 
 ### ╒═══「 Creator Info/Credits 」
 
-+  [Xelcius](https://github.com/RimuruDemonlord) : OWNER | DEV
-+  [Hodaka](https://github.com/H0daka) : BASE
++  [Kakashi](https://t.me/Yeahkakashi) : OWNER | DEV
 
 ╘══「 Any other authorship/credits can be seen through the commits. 」
 
 ## ╒═══「 Credits 」
-The bot is based of on the original work done by [PaulSonOfLars](https://github.com/PaulSonOfLars)
-This repo was just reamped to suit an Anime-centric community. All original credits go to Paul and his dedication, Without his efforts, this fork would not have been possible!
+The bot is based of on the original work done by Mai Nahi Btauhga
+This repo was just reamped to suit an Anime-centric community. All original credits go to kakashi and his dedication, Without his efforts, this fork would not have been possible!
 
 ### ╒═══「 Support Group 」 
 
-The Support group can be reached out to at [Asuka • Support](https://t.me/AsukaSupport), where you can ask for help about [Asuka Robot](https://t.me/AsukaRobot), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
+The Support group can be reached out to at [Akeno Support](https://t.me/Akeno001support), where you can ask for help about [Asuka Robot](https://t.me/AsukaRobot), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
 <details>
 	<summary>Heroku Deploy</summary>
