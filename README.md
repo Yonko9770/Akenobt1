@@ -28,9 +28,9 @@
 + [x] Heroku Deploy
 + [x] Docker/Local Machine
 
-╘══「 Can be found on telegram as [Asuka Robot](https://t.me/AsukaRobot) 」
+╘══「 Can be found on telegram as [Asuka Robot](https://t.me/Akeno001bot) 」
 
-![Asuka](https://telegra.ph/file/8d49b6f49362e7778785e.jpg)
+![𝓐𝓴𝓮𝓷𝓸](https://telegra.ph/file/24a44aa194f8889ca1910.jpg)
 
 ### ╒═══「 Creator Info/Credits 」
 
