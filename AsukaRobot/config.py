@@ -29,7 +29,7 @@ class Config(object):
     EVENT_LOGS = (
         -1001791449328
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
-
+    LOG_GROUP_ID = ""
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = "something://somewhat:user@hosturl:port/databasename"  # needed for any database modules
     LOAD = []
@@ -70,6 +70,10 @@ class Config(object):
     AI_API_KEY = "awoo"  # For chatbot, get one from https://coffeehouse.intellivoid.net/dashboard
     BL_CHATS = []  # List of groups that you want blacklisted.
     SPAMMERS = None
+    OPENWEATHERMAP_ID = ""
+    TEMP_DOWNLOAD_DIRECTORY = "./"
+    ERROR_LOGS = ""
+    STRICT_GMUTE = True
 
 
 class Production(Config):
