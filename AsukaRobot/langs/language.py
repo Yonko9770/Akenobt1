@@ -1,8 +1,6 @@
 import yaml
 import os
 from typing import Dict
-
-
 class Language:
     def __init__(self) -> None:
         self.languages: Dict = {}
