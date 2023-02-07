@@ -34,6 +34,7 @@ class Config(object):
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     EVENT_LOGS = -1001791449328
+    LOG_GROUP_ID = ""
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = "something://somewhat:user@hosturl:port/databasename"  # needed for any database modules
     LOAD = []
