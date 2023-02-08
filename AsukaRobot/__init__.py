@@ -75,8 +75,8 @@ if ENV:
     INFOPIC = bool(os.environ.get('INFOPIC', False))
     EVENT_LOGS = os.environ.get('EVENT_LOGS', None)
     WEBHOOK = bool(os.environ.get('WEBHOOK', False))
-    ARQ_API_URL = os.environ.get("ARQ_API_URL", False)
-    ARQ_API_KEY = os.environ.get("ARQ_API_KEY", None)
+    ARQ_API = os.environ.get("ARQ_API_BASE_URL", None)
+    ARQ_API_KEY = os.environ.get("ARQ_API", None)
     URL = os.environ.get('URL', "")  # Does not contain token
     PORT = int(os.environ.get('PORT', 5000))
     CERT_PATH = os.environ.get("CERT_PATH")
