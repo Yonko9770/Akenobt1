@@ -18,7 +18,7 @@ from motor.motor_asyncio import AsyncIOMotorClient as MongoClient
     INFOPIC = int(getenv('INFOPIC', "true"))
     EVENT_LOGS = getenv('EVENT_LOGS', "-100")
     WEBHOOK = int(getenv('WEBHOOK', "False"))
-    ARQ_API_URL = getenv("ARQ_API_URL", "https://thearq.tech/")
+    ARQ_API_URL = getenv("ARQ_API_URL", "http://arq.hamker.dev")
     ARQ_API_KEY = getenv("ARQ_API_KEY", "")
     URL = getenv('URL', "")  # Does not contain token
     PORT = int(getenv('PORT', 5000))
