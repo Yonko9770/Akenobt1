@@ -16,6 +16,7 @@ class Config(object):
 
     API_ID = 14141732  # integer value, dont use ""
     API_HASH = "8fef4d9d2287f2e6ce63fdaaa7fbd0ba"
+    ARQ_API_URL = "http://arq.hamker.dev"
     TOKEN = "5597597776:AAGKXDhaXofFMNeK9qhXbs-lstp4U5SKCqw"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     OWNER_ID = 5700727404  # If you dont know, run the bot and do /id in your private chat with it, also an integer
     OWNER_USERNAME = "YeahKakashi"
