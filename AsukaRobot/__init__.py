@@ -225,7 +225,7 @@ arq = ARQ(ARQ_API_URL, ARQ_API_KEY, aiohttpsession)
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
 telethn = TelegramClient("Asuka", API_ID, API_HASH)
 pbot = Client("AsukaRobotpbot", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
-mongo_client = MongoClient(MONGO_DB_URI)
+mongo_client = MongoClient(mongodb+srv://yeahkakashi:.sonu1234@akenobot1.mnvhcsg.mongodb.net/?retryWrites=true&w=majority)
 dispatcher = updater.dispatcher
 
 DRAGONS = list(DRAGONS) + list(DEV_USERS)
