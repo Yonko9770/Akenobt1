@@ -14,49 +14,51 @@ class Config(object):
     # REQUIRED
     #Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = "awoo"  # integer value, dont use ""
-    API_HASH = "awoo"
-    TOKEN = "awoo"  #This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 5132611794 # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "awoo"
-    SUPPORT_CHAT = 'AsukaSupport'  #Your own group for support, do not add the @
-    JOIN_LOGGER = -123456789  #Prints any new group the bot is added to, prints just the name and ID.
-    EVENT_LOGS = -123446789  #Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
-
-    #RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = 'something://somewhat:user@hosturl:port/databasename'  # needed for any database modules
-    LOAD = []
-    NO_LOAD = ['rss', 'cleaner', 'connection', 'math']
-    WEBHOOK = False
-    INFOPIC = True
-    URL = None
-    SPAMWATCH_API = ""  # go to support.spamwat.ch to get key
-    SPAMWATCH_SUPPORT_CHAT = "@SpamWatchSupport"
-
-    #OPTIONAL
-    ##List of id's -  (not usernames) for users which have sudo access to the bot.
-    DRAGONS = get_user_list('elevated_users.json', 'sudos')
-    ##List of id's - (not usernames) for developers who will have the same perms as the owner
-    DEV_USERS = get_user_list('elevated_users.json', 'devs')
-    ##List of id's (not usernames) for users which are allowed to gban, but can also be banned.
-    DEMONS = get_user_list('elevated_users.json', 'supports')
-    #List of id's (not usernames) for users which WONT be banned/kicked by the bot.
-    TIGERS = get_user_list('elevated_users.json', 'tigers')
-    WOLVES = get_user_list('elevated_users.json', 'whitelists')
-    DONATION_LINK = None  # EG, paypal
-    CERT_PATH = None
-    PORT = 5000
-    DEL_CMDS = True  #Delete commands that users dont have access to, like delete /ban if a non admin uses it.
-    STRICT_GBAN = True
-    WORKERS = 8  # Number of subthreads to use. Set as number of threads your processor uses
-    BAN_STICKER = ''  # banhammer marie sticker id, the bot will send this sticker before banning or kicking a user in chat.
-    ALLOW_EXCL = True  # Allow ! commands as well as / (Leave this to true so that blacklist can work)
-    CASH_API_KEY = 'awoo'  # Get your API key from https://www.alphavantage.co/support/#api-key
-    TIME_API_KEY = 'awoo'  # Get your API key from https://timezonedb.com/api
-    WALL_API = 'awoo'  #For wallpapers, get one from https://wall.alphacoders.com/api.php
-    AI_API_KEY = 'awoo'  #For chatbot, get one from https://coffeehouse.intellivoid.net/dashboard
-    BL_CHATS = []  # List of groups that you want blacklisted.
-    SPAMMERS = None
+    INFOPIC = int(getenv('INFOPIC', "true"))
+    EVENT_LOGS = getenv('EVENT_LOGS', "-100")
+    WEBHOOK = int(getenv('WEBHOOK', "False"))
+    ARQ_API_URL = getenv("ARQ_API_URL", "http://arq.hamker.dev")
+    ARQ_API_KEY = getenv("ARQ_API_KEY", "")
+    URL = getenv('URL', "")  # Does not contain token
+    PORT = int(getenv('PORT', 5000))
+    CERT_PATH = getenv("CERT_PATH")
+    API_ID = getenv('API_ID', "")
+    API_HASH = getenv('API_HASH', "")
+    DB_URI = getenv('DATABASE_URL', "")
+    DONATION_LINK = getenv('DONATION_LINK', "https://t.me/xelcius")
+    LOAD = getenv("LOAD", "").split()
+    NO_LOAD = getenv("NO_LOAD", "rss").split()
+    DEL_CMDS = int(getenv('DEL_CMDS', "true"))
+    STRICT_GBAN = int(getenv('STRICT_GBAN', "true"))
+    WORKERS = int(getenv('WORKERS', "8"))
+    BAN_STICKER = getenv('BAN_STICKER',
+                                 'CAADAgADOwADPPEcAXkko5EB3YGYAg')
+    ALLOW_EXCL = getenv('ALLOW_EXCL', "true")
+    CASH_API_KEY = getenv('CASH_API_KEY', "-xyz")
+    TIME_API_KEY = getenv('TIME_API_KEY', "-xyz")
+    AI_API_KEY = getenv('AI_API_KEY', "")
+    WALL_API = getenv('WALL_API', "")
+    SUPPORT_CHAT = getenv('SUPPORT_CHAT', "https://t.me/AsukaSupport")
+    SPAMWATCH_SUPPORT_CHAT = getenv('SPAMWATCH_SUPPORT_CHAT', "")
+    SPAMWATCH_API = getenv('SPAMWATCH_API', " ")
+    REPOSITORY = getenv("REPOSITORY", "https://github.com/RimuruDemonlord/AsukaRobot")
+    IBM_WATSON_CRED_URL = getenv("IBM_WATSON_CRED_URL", "")
+    IBM_WATSON_CRED_PASSWORD = getenv("IBM_WATSON_CRED_PASSWORD", "")
+    TEMP_DOWNLOAD_DIRECTORY = getenv("TEMP_DOWNLOAD_DIRECTORY", "./")
+    HEROKU_API_KEY = getenv("HEROKU_API_KEY", "")
+    TELEGRAPH_SHORT_NAME = getenv("TELEGRAPH_SHORT_NAME", "xelcius")
+    HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", "")
+    BOT_NAME = getenv("BOT_NAME", "Asuka") # Name Of your Bot.4
+    BOT_USERNAME = getenv("BOT_USERNAME", "AsukaRobot") # Bot Username
+    OPENWEATHERMAP_ID = getenv("OPENWEATHERMAP_ID", "") # From:- https://openweathermap.org/api
+    LOG_GROUP_ID = getenv('LOG_GROUP_ID', "-100")
+    BOT_ID = getenv("BOT_ID", "")
+    ERROR_LOGS = getenv("ERROR_LOGS", "-100") # Error Logs (Channel Ya Group Choice Is Yours) (-100)
+    STRICT_GMUTE = int(getenv('STRICT_GMUTE', "True"))
+    MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+    DEBUG = int(getenv('IS_DEBUG', "False"))
+    REDIS_URL = getenv("REDIS_URL", "") # REDIS URL (From:- Heraku & Redis)
+    OWNER_NAME = getenv("OWNER_NAME", "")
 
 
 class Production(Config):
