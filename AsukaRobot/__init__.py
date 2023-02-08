@@ -76,6 +76,7 @@ if ENV:
     EVENT_LOGS = os.environ.get('EVENT_LOGS', None)
     WEBHOOK = bool(os.environ.get('WEBHOOK', False))
     ARQ_API = os.environ.get("ARQ_API_BASE_URL", None)
+    ARQ_API_URL = os.environ.get("ARQ_API_URL", None)
     ARQ_API_KEY = os.environ.get("ARQ_API", None)
     URL = os.environ.get('URL', "")  # Does not contain token
     PORT = int(os.environ.get('PORT', 5000))
@@ -185,6 +186,8 @@ else:
     SUPPORT_CHAT = Config.SUPPORT_CHAT
     SPAMWATCH_SUPPORT_CHAT = Config.SPAMWATCH_SUPPORT_CHAT
     SPAMWATCH_API = Config.SPAMWATCH_API
+    ARQ_API_URL = Config.ARQ_API_URL
+    ARQ_API_KEY = Config.ARQ_API_KEY
     INFOPIC = Config.INFOPIC
     BOT_NAME = Config.BOT_NAME
     BOT_USERNAME = Config.BOT_USERNAME
