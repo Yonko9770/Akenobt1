@@ -193,7 +193,7 @@ else:
     BOT_USERNAME = Config.BOT_USERNAME
     LOG_GROUP_ID = Config.LOG_GROUP_ID
     ERROR_LOGS = Config.ERROR_LOGS
-    STRICT_GMUTE = Config.STRICT_GMUTE
+    STRICT_GBAN = Config.STRICT_GBAN
 
     try:
         BL_CHATS = set(int(x) for x in Config.BL_CHATS or [])
