@@ -36,7 +36,7 @@ class Config(object):
     EVENT_LOGS = -1001791449328
     LOG_GROUP_ID = ""
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = "something://somewhat:user@hosturl:port/databasename"  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = "postgres://npgdwozm:4Ced4mzwTADSPO8-2xQjx_d8DXD9d6g4@kashin.db.elephantsql.com/npgdwozm"  # needed for any database modules
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
