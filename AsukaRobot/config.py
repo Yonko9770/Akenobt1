@@ -19,6 +19,8 @@ class Config(object):
     ARQ_API_URL = "http://arq.hamker.dev"
     ARQ_API_KEY = "VVNCDW-NIBQUU-QKDTOM-JTRWBQ-ARQ"
     BOT_NAME = "𝓐𝓴𝓮𝓷𝓸"
+    BOT_USERNAME = "akeno001bot"
+    BOT_ID = "5597597776"
     TOKEN = "5597597776:AAGKXDhaXofFMNeK9qhXbs-lstp4U5SKCqw"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     OWNER_ID = 5700727404  # If you dont know, run the bot and do /id in your private chat with it, also an integer
     OWNER_USERNAME = "YeahKakashi"
@@ -38,7 +40,7 @@ class Config(object):
     INFOPIC = True
     URL = None
     SPAMWATCH_API = ""  # go to support.spamwat.ch to get key
-    SPAMWATCH_SUPPORT_CHAT = "@SpamWatchSupport"
+    SPAMWATCH_SUPPORT_CHAT = "@akeno001support"
 
     # OPTIONAL
     ##List of id's -  (not usernames) for users which have sudo access to the bot.
