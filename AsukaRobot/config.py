@@ -19,11 +19,12 @@ class Config(object):
     ARQ_API_URL = "http://arq.hamker.dev"
     ARQ_API_KEY = "VVNCDW-NIBQUU-QKDTOM-JTRWBQ-ARQ"
     BOT_NAME = "𝓐𝓴𝓮𝓷𝓸"
-    BOT_USERNAME = "akeno001bot"
-    BOT_ID = "5597597776"
-    TOKEN = "5597597776:AAGKXDhaXofFMNeK9qhXbs-lstp4U5SKCqw"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    BOT_USERNAME = "YeahAkenobot"
+    BOT_ID = "5732613580"
+    TOKEN = "5732613580:AAFMU3TNDFUXDClQjeH8XIZUvslSWJyu4UE"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     OWNER_ID = 5700727404  # If you dont know, run the bot and do /id in your private chat with it, also an integer
     OWNER_USERNAME = "YeahKakashi"
+    OWNER_NAME = "Kakashi"
     SUPPORT_CHAT = "akeno001support"  # Your own group for support, do not add the @
     LOG_GROUP_ID = -1001791449328
     JOIN_LOGGER = (
@@ -42,7 +43,7 @@ class Config(object):
     WEBHOOK = False
     INFOPIC = True
     URL = None
-    SPAMWATCH_API = ""  # go to support.spamwat.ch to get key
+    SPAMWATCH_API = "230wlIgows~cZVoKnZJwF4hVc1ihOA24hfWpEQfGx87o8GDtAPr_5Osi3DLtAW_k"  # go to support.spamwat.ch to get key
     SPAMWATCH_SUPPORT_CHAT = "@akeno001support"
 
     # OPTIONAL

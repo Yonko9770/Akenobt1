@@ -256,7 +256,7 @@ BOT_USERNAME = bottie.username
 BOT_NAME = bottie.first_name
 BOT_MENTION = bottie.mention
 
-REDIS_URL = "redis://Kakashi:.Sonu1234@redis-19899.c60.us-west-1-2.ec2.cloud.redislabs.com:19899"
+REDIS_URL = "redis://<Kakashi:.Sonu1234@redis-19899.c60.us-west-1-2.ec2.cloud.redislabs.com:19899/No-free-db"
 
 
 REDIS = StrictRedis.from_url(REDIS_URL, decode_responses=True)
